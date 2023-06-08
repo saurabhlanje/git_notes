@@ -1,4 +1,4 @@
-# git_notes
+# GIT_notes
 ## Check installation ##
 ``` git --version ```
 ## Set username ##
