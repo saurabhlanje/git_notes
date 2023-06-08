@@ -60,7 +60,8 @@ Add all files and folder names in this file which are to be ignored
 ``` git push -u origin master ```
 ## Push other branches to github ##
 Checkout other branch to be pushed to github, then ``` git push -u origin other_branch_name ```
-## ##
+## Remove remote origin ##
+``` git remote remove origin ```
 
 
 
