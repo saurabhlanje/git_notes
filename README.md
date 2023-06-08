@@ -45,3 +45,24 @@ There exist one main branch for each project. For development, different branche
 ## Dev branch is made from master branch for development purpose and all individual stories are developed within individual branch of dev branch having same number or ID as that of story number or ID. Once all development is over, all individual story branches are merged with dev. Then dev branch is checked. If all is found to be ok then it is merged with master branch.
 ## Make new branch and checkout  ##
 ``` git checkout -b branch_name ```
+## Merge branches (to be executed with checking out the branch to which the other branch is to be merged) ##
+``` git merge branch_name ```
+## File never to be tracked ##
+Make a file with name ``` .gitignore ```
+Add all files and folder names in this file which are to be ignored
+## Get reference to local repo in github ##
+``` git remote -v ```
+## Get details of local repo reference to github repo ##
+``` git remote -v ```
+## Relate local repo to github repo ##
+``` git remote add origin <url> ```
+## Push commits to github ##
+``` git push -u origin master ```
+## Push other branches to github ##
+Checkout other branch to be pushed to github, then ``` git push -u origin other_branch_name ```
+## ##
+
+
+
+
+
